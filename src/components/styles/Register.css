@@ -1,0 +1,52 @@
+.container {
+    max-width: 420px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: #c0ddd8;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .input-group {
+    margin-bottom: 15px;
+    flex-direction: column;
+    display: flex;
+  }
+
+  label {
+    font-size: 12px;
+    font-weight: 600;
+    margin-left: 10px;
+  }
+  
+  input {
+    width: 300px;
+    font-family: 'Open Sans';
+    padding: 12px;
+    font-size: 12px;
+    border-radius: 50px;
+    font-weight: 600;
+    outline: none;
+    border: none;
+    margin-top: 5px;
+  }
+  
+  .error {
+    color: red;
+    font-size: 14px;
+  }
+
+  .button2 {
+    margin-bottom: 10px;
+  }
+  

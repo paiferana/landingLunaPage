@@ -1,0 +1,31 @@
+.background2 {
+    position: relative;
+    height: 500px;
+    background-color: white;
+    margin: 0;
+    margin-top: 100px;
+    padding: 0;
+    z-index: -1;
+}
+
+.logo1 {
+    width: auto;
+    position: absolute;
+    bottom: 0;
+    top: 20px;
+    right: 50px;
+    z-index: 1;
+}
+
+.textArea1 {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    left: 50px;
+    right: 50%;
+    margin-top: 30px;
+    height: 500px;
+    font-weight: 500;
+    font-size: 14px;
+}
